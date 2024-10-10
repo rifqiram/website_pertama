@@ -1,0 +1,119 @@
+*,
+html{
+    margin:0;
+    padding:0;
+}
+
+.container {
+    
+}
+
+.container-navbar {
+    background-color: gray;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    margin: 0 2em;
+}
+
+.span-yellow {
+    color: yellow;
+}
+
+.ul-navbar {  
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25em;
+}
+
+.li-navbar{
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: black;
+    font-size: 30px;
+}
+
+
+.li-navbar:hover {
+    background-color: rgb(247, 4, 4);
+    transition: .3s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+.a-navbar{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container-content {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.c-content{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-content {
+    width:100%;
+    height:100%;
+}
+
+.container-footer {
+    height: 10vh;
+    background-color: rgb(66, 5, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 40px;
+    color: rgb(247, 10, 89);
+
+}
